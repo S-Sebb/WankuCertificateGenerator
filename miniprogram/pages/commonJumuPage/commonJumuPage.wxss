@@ -13,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20rpx;
+  background-image: url('https://raw.githubusercontent.com/S-Sebb/WankuCertificateGenerator/main/miniprogram/images/index_background.png');
 }
 
 /* 自定义导航栏，固定在页面顶部 */
@@ -34,21 +35,34 @@
   height: 40rpx;
 }
 
+/* Title Wrapper - 限制文字过长时缩小字体 */
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%; /* 限制标题宽度为屏幕的80% */
+  overflow: hidden;
+}
+
+/* Title 样式 */
 .title {
   font-size: 40rpx;
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: font-size 0.2s ease; /* 动态调整字体的过渡效果 */
 }
 
 .image-list {
-  margin-top: 250rpx;  /* 为了给导航栏留出空间 */
+  margin-top: 200rpx;  /* 为了给导航栏留出空间 */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .page-image {
-  width: 500rpx;
-  margin-bottom: 20rpx;
+  width: 700rpx;
 }
 
 /* 底部Logo样式，固定在页面底部 */
@@ -57,4 +71,25 @@
   height: 150rpx;
   bottom: 40rpx;  /* 距离底部40rpx */
   z-index: 1;  /* 确保Logo在最上层 */
+}
+
+/* 回到顶部按钮样式 */
+.back-to-top {
+  position: fixed;  /* 使按钮始终跟随页面 */
+  bottom: 120rpx;   /* 距离页面底部120rpx */
+  right: 40rpx;     /* 距离页面右边40rpx */
+  width: 120rpx;
+  height: 120rpx;
+  background-color: #ff9800;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28rpx;
+  z-index: 1000;  /* 确保按钮显示在最上层 */
+  box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 1.2; /* 调整文本的行高 */
+  padding: 0; /* 去除按钮内部的默认间距 */
 }

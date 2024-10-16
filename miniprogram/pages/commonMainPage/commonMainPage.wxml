@@ -1,6 +1,6 @@
 <view class="container">
   <!-- 背景图片 -->
-  <image src="/images/jumu_background.png" class="background-image" mode="aspectFill"></image>
+  <image src="/images/index_background.png" class="background-image" mode="aspectFill"></image>
 
   <!-- 自定义导航栏 -->
   <view class="custom-navigation-bar">
