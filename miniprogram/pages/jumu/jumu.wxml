@@ -1,0 +1,40 @@
+<view class="container">
+  <!-- 背景图片 -->
+  <image src="/images/jumu_background.png" class="background-image" mode="aspectFill"></image>
+
+  <!-- 自定义导航栏 -->
+  <view class="custom-navigation-bar">
+    <image src="/images/button_back.png" class="back-icon" bindtap="navigateBack"></image>
+    <text class="title">剧目库</text>
+  </view>
+
+  <!-- 剧目按钮列表 -->
+  <view class="content">
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToPage" data-page-id="chenjinshi_ertong">
+      <image class="button" src="/images/button_chenjinshi_ertong.png"></image>
+    </view>
+
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToPage" data-page-id="dajuchang_ertong">
+      <image class="button" src="/images/button_dajuchang_ertong.png"></image>
+    </view>
+
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToPage" data-page-id="chenjinshi_qinzi">
+      <image class="button" src="/images/button_chenjinshi_qinzi.png"></image>
+    </view>
+
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToPage" data-page-id="dajuchang_qinzi">
+      <image class="button" src="/images/button_dajuchang_qinzi.png"></image>
+    </view>
+
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToPage" data-page-id="huaju">
+      <image class="button" src="/images/button_huaju.png"></image>
+    </view>
+
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToPage" data-page-id="dajuchang_wuju">
+      <image class="button" src="/images/button_dajuchang_wuju.png"></image>
+    </view>
+  </view>
+
+  <!-- 底部Logo -->
+  <image class="logo" src="/images/logo.png"></image>
+</view>

@@ -1,0 +1,22 @@
+<view class="container">
+  <!-- 背景图片 -->
+  <image src="/images/index_background.png" class="background-image" mode="aspectFill"></image>
+
+  <!-- 标题 -->
+  <text class="title">玩库版权平台</text>
+
+  <!-- 按钮，使用 view 包裹图片，并添加按下特效 -->
+  <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu">
+    <image class="button" src="/images/index_jumu.png"></image>
+  </view>
+
+  <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToHezuo">
+    <image class="button" src="/images/index_hezuo.png"></image>
+  </view>
+
+  <!-- 联系人部分整张图片 -->
+  <image class="contact-image" src="/images/index_contact.png"></image>
+
+  <!-- 底部Logo -->
+  <image class="logo" src="/images/logo.png"></image>
+</view>

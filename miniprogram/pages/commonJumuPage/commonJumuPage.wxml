@@ -1,0 +1,20 @@
+<view class="container">
+    <!-- 背景图片 -->
+    <image src="/images/jumu_background.png" class="background-image" mode="aspectFill"></image>
+
+    <!-- 自定义导航栏 -->
+    <view class="custom-navigation-bar">
+        <image src="/images/button_back.png" class="back-icon" bindtap="navigateBack"></image>
+        <text class="title">{{title}}</text>
+    </view>
+
+    <!-- 图片列表 -->
+    <view class="image-list">
+        <block wx:for="{{images}}" wx:key="*this">
+          <image src="{{item}}" class="page-image" mode="widthFix"></image>
+        </block>
+    </view>
+
+    <!-- 底部Logo -->
+    <image class="logo" src="/images/logo.png"></image>
+</view>

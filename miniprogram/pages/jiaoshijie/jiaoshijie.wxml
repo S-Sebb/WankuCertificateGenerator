@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="centered-content">
+    <image src="/images/logo.png" class="logo" mode="widthFix"/>
+    <text class="title">教师节电子贺卡颁发</text>
+
+    <!-- 输入教师姓名 -->
+    <input placeholder="请输入教师姓名" bindinput="bindTeacherNameInput" class="text-input"/>
+
+    <!-- 输入学生姓名 -->
+    <input placeholder="请输入学生姓名" bindinput="bindStudentNameInput" class="text-input"/>
+
+    <button bindtap="submitText" class="submit-button">领取教师节电子贺卡</button>
+  </view>
+</view>

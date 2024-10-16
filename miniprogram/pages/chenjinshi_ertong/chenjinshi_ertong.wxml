@@ -1,0 +1,45 @@
+<view class="container">
+  <!-- 背景图片 -->
+  <image src="/images/jumu_background.png" class="background-image" mode="aspectFill"></image>
+
+  <view class="custom-navigation-bar">
+    <image src="/images/button_back.png" class="back-icon" bindtap="navigateBack"></image>
+    <text class="title">沉浸式儿童剧</text>
+  </view>
+
+  <!-- 剧目按钮列表 -->
+  <view class="content">
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu1">
+      <text class="item-text">沉浸式《地心游记》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu2">
+      <text class="item-text">沉浸式《冰雪女王》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu3">
+      <text class="item-text">沉浸式《飞跃卢浮宫》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu4">
+      <text class="item-text">沉浸式《飞向月球》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu5">
+      <text class="item-text">沉浸式《诗跃五千年》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu6">
+      <text class="item-text">沉浸式《地心游记2》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu7">
+      <text class="item-text">沉浸式《子曾经曰》</text>
+    </view>
+    <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToJumu8">
+      <text class="item-text">沉浸式《胡桃夹子》</text>
+    </view>
+
+    <!-- "更多剧目" 文本 -->
+    <view class="more-text">
+      <text>更多剧目，敬请期待......</text>
+    </view>
+  </view>
+
+  <!-- 底部Logo -->
+  <image class="logo" src="/images/logo.png"></image>
+</view>

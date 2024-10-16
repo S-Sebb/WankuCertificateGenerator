@@ -1,0 +1,13 @@
+<view class="container">
+    <view class="title">选择证书生成页面</view>
+    <button class="nav-button" bindtap="navigateToDixin">地心游记证书</button>
+    <button class="nav-button" bindtap="navigateToAlun">阿伦证书</button>
+    <button class="nav-button" bindtap="navigateToBeiduofen">贝多芬证书</button>
+    <button class="nav-button" bindtap="navigateToChuanyue">穿越证书</button>
+    <button class="nav-button" bindtap="navigateToShici">诗词证书</button>
+    <button class="nav-button" bindtap="navigateToLibai">李白证书</button>
+    <button class="nav-button" bindtap="navigateToPinuocao">匹诺曹机票</button>
+    <button class="nav-button" bindtap="navigateToYueqiu">月球证书</button>
+    <button class="nav-button" bindtap="navigateToJiaoshijie">教师节电子贺卡</button>
+    <button class="nav-button" bindtap="navigateToZhongqiu">李白中秋节签名赠诗</button>
+</view>

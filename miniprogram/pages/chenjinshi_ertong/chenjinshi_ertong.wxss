@@ -1,0 +1,91 @@
+/* 背景图片样式 */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+  position: relative;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* 自定义导航栏 */
+.custom-navigation-bar {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 使标题居中 */
+  position: relative; /* 让返回按钮和标题布局独立 */
+  margin-bottom: 20rpx;
+}
+
+.back-icon {
+  position: absolute;
+  left: 20rpx; /* 固定在左侧 */
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 20rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-wrapper {
+  margin-bottom: 20rpx;
+  width: 90%;
+  height: 80rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+
+.item-text {
+  font-size: 34rpx;
+  color: #333;
+}
+
+/* 按下特效 */
+.button-hover {
+  opacity: 0.8;
+  transform: scale(0.98);
+  transition: all 0.2s ease;
+}
+
+/* "更多剧目" 文本样式 */
+.more-text {
+  margin-top: 40rpx;
+  font-size: 28rpx;
+  color: #666;
+  text-align: center;
+}
+
+/* 底部Logo样式 */
+.logo {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 100rpx;
+}

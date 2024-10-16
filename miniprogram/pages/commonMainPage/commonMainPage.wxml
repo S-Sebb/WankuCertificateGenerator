@@ -1,0 +1,25 @@
+<view class="container">
+  <!-- 背景图片 -->
+  <image src="/images/jumu_background.png" class="background-image" mode="aspectFill"></image>
+
+  <!-- 自定义导航栏 -->
+  <view class="custom-navigation-bar">
+    <image src="/images/button_back.png" class="back-icon" bindtap="navigateBack"></image>
+    <text class="title">{{title}}</text>
+  </view>
+
+  <!-- 剧目按钮列表 -->
+  <view class="content">
+    <block wx:for="{{subPages}}" wx:key="*this">
+      <view class="button-wrapper" hover-class="button-hover" bindtap="navigateToSubPage" data-page-id="{{item.id}}">
+        <text class="item-text">{{item.title}}</text>
+      </view>
+    </block>
+    <view>
+      <text class="item-text">更多剧目，敬请期待......</text>
+    </view>
+  </view>
+
+  <!-- 底部Logo -->
+  <image class="logo" src="/images/logo.png"></image>
+</view>

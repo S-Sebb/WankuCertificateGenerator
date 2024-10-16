@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200rpx;  /* 根据需要调整大小 */
+  margin-bottom: 40rpx;  /* 在 logo 和标题之间增加间距 */
+}
+
+.title {
+  margin-bottom: 40rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.text-input {
+  margin-bottom: 40rpx;
+  padding: 20rpx;  /* 调整padding */
+  width: 600rpx;  /* 增加宽度 */
+  height: 80rpx;  /* 增加高度 */
+  box-sizing: border-box;
+  font-size: 34rpx;  /* 调整字体大小 */
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+}
+
+.submit-button {
+  padding: 20rpx;
+  width: 600rpx;  /* 增加按钮宽度 */
+  font-size: 34rpx;  /* 增加按钮字体大小 */
+  background-color: #1aad19;
+  color: white;
+  border: none;
+  border-radius: 10rpx;
+}
