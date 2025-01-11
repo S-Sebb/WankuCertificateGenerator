@@ -1,0 +1,56 @@
+/* 背景图片样式 */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+  position: relative;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 100rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 60rpx;
+  color: black; /* 标题文字颜色 */
+}
+
+/* 按钮样式：按照图片原始尺寸 */
+.button {
+  margin-top: 10rpx;
+  width: 353rpx; /* 按原始图片宽度 */
+  height: 157rpx; /* 按原始图片高度 */
+}
+
+/* 按下特效样式 */
+.button-hover {
+  opacity: 0.8; /* 按下时使按钮稍微变暗 */
+  transform: scale(0.9); /* 按下时按钮缩小一点 */
+  transition: all 0.2s ease; /* 平滑过渡效果 */
+}
+
+/* 联系人整张图片样式，确保显示 */
+.contact-image {
+  margin-top: 60rpx;
+  width: 528rpx; /* 设置为原始图片宽度 */
+  height: 688.8rpx; /* 确保设置为原始图片高度 */
+}
+
+/* 底部Logo样式 */
+.logo {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 150rpx;
+}

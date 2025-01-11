@@ -87,7 +87,7 @@ Page({
     // 动态跳转回不同的生成页面
     let targetPage = '/pages/index/index';
     if (this.data.type) {
-      targetPage = `/pages/${this.data.type}/${this.data.type}`;
+      targetPage = `/pages/commonCertPage/commonCertPage?id=${this.data.type}`;
     }
 
     wx.navigateTo({

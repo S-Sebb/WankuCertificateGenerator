@@ -46,7 +46,6 @@
   margin-top: 60rpx;
   width: 528rpx; /* 设置为原始图片宽度 */
   height: 688.8rpx; /* 确保设置为原始图片高度 */
-  object-fit: cover; /* 保证图片按比例显示 */
 }
 
 /* 底部Logo样式 */

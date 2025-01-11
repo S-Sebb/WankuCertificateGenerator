@@ -1,15 +1,11 @@
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #ffffff;
-}
-
-.centered-content {
-  display: flex;
   flex-direction: column;
+  /* 这两个可能会让子元素上下撑开 */
+  justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
+  background-image: url('https://7761-wanku-1grdi7z2e884c9f1-1330554170.tcb.qcloud.la/images/index_background.png?sign=0b6c03c3781930c793407751a08e0c1e&t=1729113905');
 }
 
 .title {

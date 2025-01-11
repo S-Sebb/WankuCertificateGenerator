@@ -1,0 +1,56 @@
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://7761-wanku-1grdi7z2e884c9f1-1330554170.tcb.qcloud.la/images/index_background.png?sign=0b6c03c3781930c793407751a08e0c1e&t=1729113905');
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200rpx;
+  margin-bottom: 40rpx;
+}
+
+.title {
+  margin-bottom: 40rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.text-input {
+  margin-bottom: 40rpx;
+  padding: 20rpx;
+  width: 600rpx;
+  height: 80rpx;
+  box-sizing: border-box;
+  font-size: 34rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  background-color: white;
+}
+
+.submit-button {
+  padding: 20rpx;
+  width: 600rpx;
+  font-size: 34rpx;
+  background-color: #1aad19;
+  color: white;
+  border: none;
+  border-radius: 10rpx;
+}

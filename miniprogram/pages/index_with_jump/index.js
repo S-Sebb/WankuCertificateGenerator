@@ -3,61 +3,73 @@ Page({
 
   navigateToDixin: function() {
     wx.navigateTo({
-      url: '/pages/dixin/dixin'
+      url: '/pages/commonCertPage/commonCertPage?id=dixin'
     });
   },
 
   navigateToAlun: function() {
     wx.navigateTo({
-      url: '/pages/alun/alun'
+      url: '/pages/commonCertPage/commonCertPage?id=alun'
     });
   },
 
   navigateToBeiduofen: function() {
     wx.navigateTo({
-      url: '/pages/beiduofen/beiduofen'
+      url: '/pages/commonCertPage/commonCertPage?id=beiduofen'
     });
   },
 
   navigateToChuanyue: function() {
     wx.navigateTo({
-      url: '/pages/chuanyue/chuanyue'
+      url: '/pages/commonCertPage/commonCertPage?id=chuanyue'
     });
   },
 
   navigateToShici: function() {
     wx.navigateTo({
-      url: '/pages/shici/shici'
+      url: '/pages/commonCertPage/commonCertPage?id=shici'
     });
   },
 
   navigateToLibai: function() {
     wx.navigateTo({
-      url: '/pages/libai/libai'
+      url: '/pages/commonCertPage/commonCertPage?id=libai'
     });
   },
 
   navigateToPinuocao: function() {
     wx.navigateTo({
-      url: '/pages/pinuocao/pinuocao'
+      url: '/pages/commonCertPage/commonCertPage?id=pinuocao'
     });
   },
 
   navigateToYueqiu: function() {
     wx.navigateTo({
-      url: '/pages/yueqiu/yueqiu'
+      url: '/pages/commonCertPage/commonCertPage?id=yueqiu'
     });
   },
 
   navigateToJiaoshijie: function() {
     wx.navigateTo({
-      url: '/pages/jiaoshijie/jiaoshijie'
+      url: '/pages/commonCertPage/commonCertPage?id=jiaoshijie'
     });
   },
 
   navigateToZhongqiu: function() {
     wx.navigateTo({
-      url: '/pages/zhongqiu/zhongqiu'
+      url: '/pages/commonCertPage/commonCertPage?id=zhongqiu'
     });
-  }
+  },
+
+  navigateToChristmas: function() {
+    wx.navigateTo({
+      url: '/pages/commonCertPage/commonCertPage?id=christmas'
+    });
+  },
+
+  navigateToDapao: function() {
+    wx.navigateTo({
+      url: '/pages/commonCertPage/commonCertPage?id=Dapao'
+    });
+  },
 });

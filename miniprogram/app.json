@@ -2,25 +2,18 @@
   "pages": [
     "pages/index/index",
     "pages/result/result",
-    "pages/dixin/dixin",
-    "pages/alun/alun",
-    "pages/chuanyue/chuanyue",
-    "pages/beiduofen/beiduofen",
-    "pages/shici/shici",
-    "pages/libai/libai",
-    "pages/pinuocao/pinuocao",
-    "pages/yueqiu/yueqiu",
-    "pages/jiaoshijie/jiaoshijie",
-    "pages/zhongqiu/zhongqiu",
     "pages/jumu/jumu",
     "pages/hezuo/hezuo",
     "pages/commonMainPage/commonMainPage",
-    "pages/commonJumuPage/commonJumuPage"
+    "pages/commonJumuPage/commonJumuPage",
+    "pages/commonCertPage/commonCertPage"
   ],
   "window": {
     "navigationBarTitleText": "玩库版权平台",
     "navigationBarTextStyle": "white",
     "navigationBarBackgroundColor": "#1aad19",
     "backgroundColor": "#ffffff"
-  }
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
 }

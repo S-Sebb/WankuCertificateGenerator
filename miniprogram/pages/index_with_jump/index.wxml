@@ -10,4 +10,6 @@
     <button class="nav-button" bindtap="navigateToYueqiu">月球证书</button>
     <button class="nav-button" bindtap="navigateToJiaoshijie">教师节电子贺卡</button>
     <button class="nav-button" bindtap="navigateToZhongqiu">李白中秋节签名赠诗</button>
+    <button class="nav-button" bindtap="navigateToChristmas">圣诞节电子贺卡</button>
+    <button class="nav-button" bindtap="navigateToDapao">大炮俱乐部会员徽章</button>
 </view>

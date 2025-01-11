@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="centered-content">
+    <!-- logo -->
+    <image src="{{logoUrl}}" class="logo" mode="widthFix" />
+
+    <!-- 标题 -->
+    <text class="title">{{title}}</text>
+
+    <!-- 输入框 -->
+    <block wx:for="{{inputs}}" wx:key="key">
+      <input
+        class="text-input"
+        placeholder="{{item.placeholder}}"
+        bindinput="handleInput"
+        data-key="{{item.key}}"
+        value="{{values[item.key]}}"
+      />
+    </block>
+
+    <!-- 提交按钮 -->
+    <button bindtap="submitText" class="submit-button">
+      {{buttonText}}
+    </button>
+  </view>
+</view>

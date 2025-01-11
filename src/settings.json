@@ -25,8 +25,8 @@
             "x": 1870,
             "y": 977
           },
-          "font_size": 55,
-          "font_path": "microsoft_yahei.ttf",
+          "font_size": 80,
+          "font_path": "alun.TTF",
           "font_color": [255, 255, 255],
           "text_spacing": 5,
           "text_orientation": "horizontal"
@@ -41,8 +41,8 @@
             "x": 1217,
             "y": 1179
           },
-          "font_size": 100,
-          "font_path": "microsoft_yahei.ttf",
+          "font_size": 170,
+          "font_path": "beiduofen.ttf",
           "font_color": [0, 0, 0],
           "text_spacing": 5,
           "text_orientation": "horizontal"
@@ -169,6 +169,38 @@
           "font_color": [0, 0, 0],
           "text_spacing": 40,
           "text_orientation": "vertical"
+        }
+      ]
+    },
+    "christmas": {
+      "image_path": "christmas.jpg",
+      "text_config": [
+        {
+          "text_center_position": {
+            "x": 2121,
+            "y": 2250
+          },
+          "font_size": 281,
+          "font_path": "christmas.ttf",
+          "font_color": [0, 0, 0],
+          "text_spacing": 40,
+          "text_orientation": "horizontal"
+        }
+      ]
+    },
+    "dapao": {
+      "image_path": "dapao.jpg",
+      "text_config": [
+        {
+          "text_center_position": {
+            "x": 2170,
+            "y": 3092
+          },
+          "font_size": 150,
+          "font_path": "dapao.OTF",
+          "font_color": [247, 213, 177],
+          "text_spacing": 40,
+          "text_orientation": "horizontal"
         }
       ]
     }

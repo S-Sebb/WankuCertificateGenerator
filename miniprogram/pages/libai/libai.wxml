@@ -1,8 +1,0 @@
-<view class="container">
-  <view class="centered-content">
-    <image src="/images/logo.png" class="logo" mode="widthFix"/>
-    <text class="title">李白签名赠诗领取</text>
-    <input placeholder="请输入姓名" bindinput="bindTextInput" class="text-input"/>
-    <button bindtap="submitText" class="submit-button">领取李白签名赠诗</button>
-  </view>
-</view>

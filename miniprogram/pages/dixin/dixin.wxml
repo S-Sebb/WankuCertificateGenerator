@@ -1,8 +1,0 @@
-<view class="container">
-  <view class="centered-content">
-    <image src="/images/logo.png" class="logo" mode="widthFix"/>
-    <text class="title">地心游记证书颁发</text>
-    <input placeholder="请输入姓名" bindinput="bindTextInput" class="text-input"/>
-    <button bindtap="submitText" class="submit-button">领取证书</button>
-  </view>
-</view>

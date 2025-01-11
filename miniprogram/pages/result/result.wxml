@@ -1,8 +1,6 @@
 <view class="container">
-  <view class="centered-content">
-    <text class="title">证书颁发</text>
-    <image src="{{imageSrc}}" mode="widthFix" class="result-image" bindtap="previewImage" binderror="onImageLoadError"/>
-    <button bindtap="saveImage" class="result-button">保存到相册</button>
-    <button bindtap="regenerate" class="result-button">重新颁发证书</button>
-  </view>
+  <text class="title">证书颁发</text>
+  <image src="{{imageSrc}}" mode="widthFix" class="result-image" bindtap="previewImage" binderror="onImageLoadError"/>
+  <button bindtap="saveImage" class="result-button">保存到相册</button>
+  <button bindtap="regenerate" class="result-button">重新领取</button>
 </view>
